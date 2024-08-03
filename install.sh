@@ -3,4 +3,4 @@ dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Dat
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
 echo -e " [INFO] GERMA"
-wget https://github.com/anggrevps/autoscript-vip/main/setup.sh && chmod -x setup.sh && ./setup.sh
+wget https://raw.githubusercontent.com/anggrevps/autoscrpit-vip/main/setup.sh && chmod +x setup.sh && ./setup.sh
